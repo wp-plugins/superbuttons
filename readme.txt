@@ -35,6 +35,10 @@ Which simply means: the buttons can be any size, any color, any style.
 * Customize link title attribute
 * Choose from the 10 predefined syles or create Your own!
 
+**Notes**
+
+If You add images to your buttons, they should be 16x16 pixels, png or gif is preferred for transparent backgrounds.
+
 == Installation ==
 
 1. Upload `superbuttons` directory to the `/wp-content/plugins/` directory
@@ -50,9 +54,11 @@ It sure is!
 
 == Screenshots ==
 
-1. Just fill out the small form to create Your button
-2. Or use shortcode (it is automatically generated when You are using the form)
-3. A nice gradient, web 2 style button is born!
+1. Create super awsome buttons like this!
+2. You can even go crazy and style the button text, or add an image!
+3. Just fill out the small form to create Your button
+4. Or use shortcode (it is automatically generated when You are using the form)
+5. A nice gradient, web 2 style button is born!
 
 == Changelog ==
 
