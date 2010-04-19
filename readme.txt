@@ -18,11 +18,11 @@ You don’t need any technical knowledge to create awesome web buttons – it’
 
 **Works everywhere**
 
-SuperButtons work in all major browsers and degrade gracefully in older browsers – which means that they look great everywhere!
+SuperButtons works in all major browsers and degrade gracefully in older browsers – which means that they look great everywhere!
 
 **It’s scalable**
 
-Which simply means: the buttons can be any size, any color, any style. You can go crazy and even style the button like this:
+Which simply means: the buttons can be any size, any color, any style.
 
 **Features:**
 
