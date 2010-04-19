@@ -10,6 +10,8 @@ SuperButtons lets You create sleek and **stylish web buttons** for Your website 
 
 == Description ==
 
+**SuperButtons lets You create sleek and stylish web buttons for Your website with just a few clicks.**
+
 **Easy to use**
 
 You don’t need any technical knowledge to create awesome web buttons – it’s as easy as creating a simple text link. You don’t need Photoshop or any other image editing software!
