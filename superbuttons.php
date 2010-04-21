@@ -4,7 +4,7 @@ Plugin Name: SuperButtons
 Plugin URI: http://wpsupertheme.com/superbuttons-stylish-buttons-for-your-website/
 Description: Create super stylish buttons with just a few clicks. Supports gradients and rounded corners. Cross-browser compatible.
 Author: Illimar Tambek
-Version: 0.5
+Version: 0.5.1
 Author URI: http://wpsupertheme.com/
 */
 
@@ -132,8 +132,10 @@ Author URI: http://wpsupertheme.com/
 	wp_enqueue_style( 'superbuttons' , SUPERBUTTON_URL . '/superbuttons.css');
 	wp_enqueue_style( 'superbuttons' , SUPERBUTTON_URL . '/custom_styles.css');
 
-	wp_enqueue_script( 'roundcorners', SUPERBUTTON_URL . '/roundcorners.min.js', array( 'jquery' ), false, true );
-	wp_enqueue_script( 'superbuttons', SUPERBUTTON_URL . '/superbuttons.js', array( 'jquery' , 'roundcorners' ), false, true );
+	if (!is_admin()) { // Don't load roundcorners in admin. Messes up widgest drag and drop
+		wp_enqueue_script( 'roundcorners', SUPERBUTTON_URL . '/roundcorners.min.js', array( 'jquery' ), false, true ); 
+		wp_enqueue_script( 'superbuttons', SUPERBUTTON_URL . '/superbuttons.js', array( 'jquery' , 'roundcorners' ), false, true );
+	}
 
 	add_action('wp_footer', 'superbuttons_excanvas', 1);
 

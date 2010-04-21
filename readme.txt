@@ -62,5 +62,8 @@ It sure is!
 
 == Changelog ==
 
+= 0.5.1 =
+* Fixed a bug that messed up widgets drag and drop.
+
 = 0.5 =
 * Initial release.
