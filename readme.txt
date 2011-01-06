@@ -3,7 +3,7 @@ Contributors: ragulka
 Donate link: http://wpsupertheme.com/superbuttons-stylish-buttons-for-your-website/#donate
 Tags: buttons, tinymce, web2, link, button, superbutton, superbuttons
 Requires at least: 2.9.2
-Tested up to: 3.0-beta1
+Tested up to: 3.0.4
 Stable tag: trunk
 
 SuperButtons lets You create sleek and **stylish web buttons** for Your website with just a few clicks.
