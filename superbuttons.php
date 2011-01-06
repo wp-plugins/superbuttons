@@ -4,7 +4,7 @@ Plugin Name: SuperButtons
 Plugin URI: http://wpsupertheme.com/superbuttons-stylish-buttons-for-your-website/
 Description: Create super stylish buttons with just a few clicks. Supports gradients and rounded corners. Cross-browser compatible.
 Author: Illimar Tambek
-Version: 0.5.1
+Version: 0.6
 Author URI: http://wpsupertheme.com/
 */
 
@@ -30,6 +30,8 @@ Author URI: http://wpsupertheme.com/
 			'link' => 'javascript:void(0);',
 			'class' => 'sprbtn_orange',
 			'title' => '',
+			'target' => '',
+			'rel' => ''
 		), $atts));
 
 		if (!$title) $title = strip_tags($content);
@@ -89,8 +91,8 @@ Author URI: http://wpsupertheme.com/
 		$classes .= ' '.$bgNormalStart.' '.$bgNormalEnd.' '.$bgHoverStart.' '.$bgHoverEnd.' '.$bgActiveStart.' '.$bgActiveEnd;
 
 		$button =	'<span class="superbutton '.$classes.'">
-						<a href="'.$link.'" title="'.$title.'" class="'.$imageclass.'" style="'.$link_style.'">
-							'.$content.'
+						<a href="'.$link.'" title="'.$title.'" class="'.$imageclass.'" style="'.$link_style.'" target="'.$target.'" rel="'.$rel.'">
+							<span>'.$content.'</span>
 						</a>
 					</span>';
 
@@ -132,15 +134,11 @@ Author URI: http://wpsupertheme.com/
 	wp_enqueue_style( 'superbuttons' , SUPERBUTTON_URL . '/superbuttons.css');
 	wp_enqueue_style( 'superbuttons' , SUPERBUTTON_URL . '/custom_styles.css');
 
-	if (!is_admin()) { // Don't load roundcorners in admin. Messes up widgest drag and drop
-		wp_enqueue_script( 'roundcorners', SUPERBUTTON_URL . '/roundcorners.min.js', array( 'jquery' ), false, true ); 
-		wp_enqueue_script( 'superbuttons', SUPERBUTTON_URL . '/superbuttons.js', array( 'jquery' , 'roundcorners' ), false, true );
-	}
+	wp_enqueue_script( 'textshadow', SUPERBUTTON_URL . '/lib/jquery.dropShadow.js', array( 'jquery' ), false, true );
+	add_action('wp_footer', 'superbuttons_ie_shadows', 12);
 
-	add_action('wp_footer', 'superbuttons_excanvas', 1);
-
-	function superbuttons_excanvas() {
-		echo '<!--[if IE]><script type="text/javascript" src="'. SUPERBUTTON_URL . '/excanvas.compiled.js"></script><![endif]-->';
+	function superbuttons_ie_shadows() {
+		echo '<!--[if lte IE 8]><script type="text/javascript" src="'.SUPERBUTTON_URL.'/superbuttons.js"></script><![endif]-->';
 	}
 
 ?>
