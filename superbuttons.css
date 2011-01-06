@@ -1,0 +1,236 @@
+.superbutton {
+	display: inline-block;
+	border: 1px solid #FFCC99;
+	background: #ff5c00;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow: inset 0 0 2px #FFF;
+	-webkit-box-shadow:inset 0 0 2px #FFF;
+	box-shadow: inset 0 0 1px #FFF;
+	margin: 0 10px 10px 0;
+	position:relative;
+	behavior: url(/wp-content/plugins/superbuttons/lib/PIE.php);
+}
+
+.superbutton a {
+	position: relative;
+	display: block;
+	padding: 0.3em 0.8em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFF;
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	text-shadow: 0 1px 1px #222;
+	outline: none;
+}
+
+.superbutton span {display:inline-block;}
+
+.superbutton a.hasimage {
+	padding-left:3em;
+}
+
+/* =Yellow
+-------------------------------------------------------------- */
+
+.sprbtn_yellow {
+	border-color: #C08C1F;
+	background-color: #FF6B18;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD071), to(#FFB51A));
+	background-image: -moz-linear-gradient(top, #FFD071, #FFB51A);
+	-pie-background: linear-gradient(#FFD071, #FFB51A);
+}
+
+.sprbtn_yellow:hover {
+	background-color: #FF6600;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD071), to(#FFAC00));
+	background-image: -moz-linear-gradient(top, #FFD071, #FFAC00);
+	-pie-background: linear-gradient(#FFD071, #FFAC00);
+}
+
+.sprbtn_yellow:active {
+	background-color: #FF3300;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E69B00), to(#FFAC00));
+	background-image: -moz-linear-gradient(top, #E69B00, #FFAC00);
+	-pie-background: linear-gradient(#E69B00, #FFAC00);
+}
+
+/* =Orange
+-------------------------------------------------------------- */
+
+.sprbtn_orange {
+	border-color: #FF6600;
+	background-color: #FF6B18;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FF7A17), to(#F05A00));
+	background-image: -moz-linear-gradient(top, #FF7A17, #F05A00);
+	-pie-background: linear-gradient(#FF7A17, #F05A00);
+}
+
+.sprbtn_orange:hover {
+	background-color: #FF6600;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FF7A17), to(#D75B00));
+	background-image: -moz-linear-gradient(top, #FF7A17, #D75B00);
+	-pie-background: linear-gradient(#FF7A17, #D75B00);
+}
+
+.sprbtn_orange:active {
+	background-color: #FF3300;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C45300), to(#D75B00));
+	background-image: -moz-linear-gradient(top, #C45300, #D75B00);
+	-pie-background: linear-gradient(#C45300, #D75B00);
+}
+
+/* =Red
+-------------------------------------------------------------- */
+
+.sprbtn_red {
+	border-color: #AC3211;
+	background-color: #FF6B18;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FF490D), to(#CC3300));
+	background-image: -moz-linear-gradient(top, #FF490D, #CC3300);
+	-pie-background: linear-gradient(#FF490D, #CC3300);
+}
+
+.sprbtn_red:hover {
+	background-color: #FF6600;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FF490D), to(#A82B00));
+	background-image: -moz-linear-gradient(top, #FF490D, #A82B00);
+	-pie-background: linear-gradient(#FF490D, #A82B00);
+}
+
+.sprbtn_red:active {
+	background-color: #FF3300;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#912400), to(#CC3300));
+	background-image: -moz-linear-gradient(top, #912400, #CC3300);
+	-pie-background: linear-gradient(#912400, #CC3300);
+}
+
+/* =Green
+-------------------------------------------------------------- */
+
+.sprbtn_green {
+	border-color: #009900;
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#78F000), to(#54A800));
+	background-image: -moz-linear-gradient(top, #78F000, #54A800);
+	-pie-background: linear-gradient(#78F000, #54A800);
+}
+
+.sprbtn_green:hover {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#78F000), to(#458A00));
+	background-image: -moz-linear-gradient(top, #78F000, #458A00);
+	-pie-background: linear-gradient(#78F000, #458A00);
+}
+
+.sprbtn_green:active {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3C7700), to(#458A00));
+	background-image: -moz-linear-gradient(top, #3C7700, #458A00);
+	-pie-background: linear-gradient(#3C7700, #458A00);
+}
+
+/* =Blue
+-------------------------------------------------------------- */
+
+.sprbtn_blue {
+	border-color: #005680;
+	background-color: #006699;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#008ACC), to(#006699));
+	background-image: -moz-linear-gradient(top, #008ACC, #006699);
+	-pie-background: linear-gradient(#008ACC, #006699);
+}
+
+.sprbtn_blue:hover {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#008ACC), to(#005279));
+	background-image: -moz-linear-gradient(top, #008ACC, #005279);
+	-pie-background: linear-gradient(#008ACC, #005279);
+}
+
+.sprbtn_blue:active {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#004262), to(#005279));
+	background-image: -moz-linear-gradient(top, #004262, #005279);
+	-pie-background: linear-gradient(#004262, #005279);
+}
+
+/* =Purple
+-------------------------------------------------------------- */
+
+.sprbtn_purple {
+	border-color: #9900CC;
+	background-color: #9900FF;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C164FF), to(#9900FF));
+	background-image: -moz-linear-gradient(top, #C164FF, #9900FF);
+	-pie-background: linear-gradient(#C164FF, #9900FF);
+}
+
+.sprbtn_purple:hover {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C164FF), to(#7E00D2));
+	background-image: -moz-linear-gradient(top, #C164FF, #7E00D2);
+	-pie-background: linear-gradient(#C164FF, #7E00D2);
+}
+
+.sprbtn_purple:active {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6F00B9), to(#7E00D2));
+	background-image: -moz-linear-gradient(top, #6F00B9, #7E00D2);
+	-pie-background: linear-gradient(#6F00B9, #7E00D2);
+}
+
+/* =Dark Gray
+-------------------------------------------------------------- */
+
+.sprbtn_darkgray {
+	border-color: #333333;
+	background-color: #9900FF;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6F6F6F), to(#424242));
+	background-image: -moz-linear-gradient(top, #6F6F6F, #424242);
+	-pie-background: linear-gradient(#6F6F6F, #424242);
+}
+
+.sprbtn_darkgray:hover {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6F6F6F), to(#363636));
+	background-image: -moz-linear-gradient(top, #6F6F6F, #363636);
+	-pie-background: linear-gradient(#6F6F6F, #363636);
+}
+
+.sprbtn_darkgray:active {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#363636));
+	background-image: -moz-linear-gradient(top, #333333, #363636);
+	-pie-background: linear-gradient(#333333, #363636);
+}
+
+/* =Light Gray
+-------------------------------------------------------------- */
+
+.sprbtn_lightgray {
+	border-color: #999999;
+	background-color: #CCCCCC;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E5E5E5), to(#CCCCCC));
+	background-image: -moz-linear-gradient(top, #E5E5E5, #CCCCCC);
+	-pie-background: linear-gradient(#E5E5E5, #CCCCCC);
+}
+
+.sprbtn_lightgray:hover {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E5E5E5), to(#B6B6B6));
+	background-image: -moz-linear-gradient(top, #E5E5E5, #B6B6B6);
+	-pie-background: linear-gradient(#E5E5E5, #B6B6B6);
+}
+
+.sprbtn_lightgray:active {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#A2A2A2), to(#B6B6B6));
+	background-image: -moz-linear-gradient(top, #A2A2A2, #B6B6B6);
+	-pie-background: linear-gradient(#A2A2A2, #B6B6B6);
+}
+
+.sprbtn_lightgray a {color:#333; text-shadow: 0 1px 1px #FFF;}

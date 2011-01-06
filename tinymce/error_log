@@ -1,0 +1,19 @@
+[30-Mar-2010 18:14:32] PHP Fatal error:  Class 'cssparser' not found in /home/ragulka/public_html/wp-content/plugins/superbuttons/tinymce/superbuttons_tinymce.php on line 48
+[30-Mar-2010 13:24:29] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/ragulka/public_html/wp-content/plugins/superbuttons/tinymce/superbuttons_tinymce.php on line 55
+[30-Mar-2010 13:24:32] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/ragulka/public_html/wp-content/plugins/superbuttons/tinymce/superbuttons_tinymce.php on line 55
+[30-Mar-2010 19:31:11] PHP Warning:  include(/home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/ragulka/public_html/wp-content/plugins/superbuttons/tinymce/superbuttons_tinymce.php on line 49
+[30-Mar-2010 19:31:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ragulka/public_html/wp-content/plugins/superbuttons/tinymce/superbuttons_tinymce.php on line 49
+[30-Mar-2010 19:31:11] PHP Fatal error:  Class 'cssparser' not found in /home/ragulka/public_html/wp-content/plugins/superbuttons/tinymce/superbuttons_tinymce.php on line 50
+[31-Mar-2010 12:25:33] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:25:45] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:26:20] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:26:52] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:26:55] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:26:57] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:26:59] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:27:06] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:27:08] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:27:10] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:27:58] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[31-Mar-2010 12:28:02] PHP Fatal error:  Cannot redeclare class cssparser in /home/ragulka/public_html/wp-content/plugins/superbuttons/cssparser.php on line 6
+[06-Jan-2011 10:39:24] PHP Fatal error:  Class 'cssparser' not found in /home/ragulka/public_html/wp-content/plugins/superbuttons/tinymce/superbuttons_tinymce.php on line 55

@@ -1,0 +1,24 @@
+/* =Green
+-------------------------------------------------------------- */
+
+.sprbtn_custom_green {
+	border-color: #009900;
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#78F000), to(#54A800));
+	background-image: -moz-linear-gradient(top, #78F000, #54A800);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#78F000, endColorstr=#54A800);*/
+}
+
+.sprbtn_custom_green:hover {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#78F000), to(#458A00));
+	background-image: -moz-linear-gradient(top, #78F000, #458A00);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#78F000, endColorstr=#458A00);
+}
+
+.sprbtn_custom_green:active {
+	background-color: #54A800;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3C7700), to(#458A00));
+	background-image: -moz-linear-gradient(top, #3C7700, #458A00);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#3C7700, endColorstr=#458A00);
+}
